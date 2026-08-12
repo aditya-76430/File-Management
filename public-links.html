@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MyFiles — Public Links">
+  <title>Public Links | MyFiles</title>
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body data-page="public-links">
+  <div id="app"></div>
+  <input id="filePicker" type="file" multiple hidden>
+  <div id="modal" class="modal-backdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true">
+      <div class="modal-head">
+        <h2 id="modalTitle">MyFiles</h2>
+        <button class="icon-button" data-close-modal aria-label="Close">×</button>
+      </div>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
