@@ -639,7 +639,7 @@ function logout(){
   state.files=[];
   state.folders=[];
   document.body.className="login-body";
-  location.href="login.html";
+  location.href="index.html";
 }
 
 async function init(){
